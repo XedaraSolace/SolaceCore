@@ -151,7 +151,7 @@ namespace {
 
                 // Announce to player
                 std::ostringstream ss;
-                ss << "|cffFF0000[SoloCraft] |cffFF8000" << player->GetName() << " entered %s - # of Players: %d - Difficulty Offset: %d.";
+                ss << "|cffFF0000[Alpha Dungeon Testing] |cffFF8000" << player->GetName() << " entered %s - # of Players: %d - Difficulty Offset: %d.";
                 ChatHandler(player->GetSession()).PSendSysMessage(ss.str().c_str(), map->GetMapName(), numInGroup, difficulty);
 
                 // Adjust player stats
